@@ -1,0 +1,309 @@
+INFO: [HLS 200-10] Running '/opt/Xilinx2018/Vivado/2018.3/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'dss545' on host 'hansolo.poly.edu' (Linux_x86_64 version 3.10.0-957.10.1.el7.x86_64) on Wed Oct 23 17:53:47 EDT 2019
+INFO: [HLS 200-10] On os "Red Hat Enterprise Linux Server release 7.6 (Maipo)"
+INFO: [HLS 200-10] In directory '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48'
+INFO: [HLS 200-10] Opening project '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj'.
+INFO: [HLS 200-10] Opening solution '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7a200tfbg676-2'
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "/opt/Xilinx2018/Vivado/2018.3/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling apatb_crypto_sign_keypair.cpp
+   Compiling (apcc) fips202.c_pre.c.tb.c
+INFO: [HLS 200-10] Running '/opt/Xilinx2018/Vivado/2018.3/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'dss545' on host 'hansolo.poly.edu' (Linux_x86_64 version 3.10.0-957.10.1.el7.x86_64) on Wed Oct 23 17:54:09 EDT 2019
+INFO: [HLS 200-10] On os "Red Hat Enterprise Linux Server release 7.6 (Maipo)"
+INFO: [HLS 200-10] In directory '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_dss545/1187161571867649316095
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) rng.c_pre.c.tb.c
+INFO: [HLS 200-10] Running '/opt/Xilinx2018/Vivado/2018.3/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'dss545' on host 'hansolo.poly.edu' (Linux_x86_64 version 3.10.0-957.10.1.el7.x86_64) on Wed Oct 23 17:54:16 EDT 2019
+INFO: [HLS 200-10] On os "Red Hat Enterprise Linux Server release 7.6 (Maipo)"
+INFO: [HLS 200-10] In directory '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_dss545/1188341571867656457918
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) newtest_sign.c_pre.c.tb.c
+INFO: [HLS 200-10] Running '/opt/Xilinx2018/Vivado/2018.3/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'dss545' on host 'hansolo.poly.edu' (Linux_x86_64 version 3.10.0-957.10.1.el7.x86_64) on Wed Oct 23 17:54:22 EDT 2019
+INFO: [HLS 200-10] On os "Red Hat Enterprise Linux Server release 7.6 (Maipo)"
+INFO: [HLS 200-10] In directory '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_dss545/1189541571867662651000
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) sign.c_pre.c.tb.c
+INFO: [HLS 200-10] Running '/opt/Xilinx2018/Vivado/2018.3/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'dss545' on host 'hansolo.poly.edu' (Linux_x86_64 version 3.10.0-957.10.1.el7.x86_64) on Wed Oct 23 17:54:28 EDT 2019
+INFO: [HLS 200-10] On os "Red Hat Enterprise Linux Server release 7.6 (Maipo)"
+INFO: [HLS 200-10] In directory '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_dss545/1190701571867668764266
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) mq.c_pre.c.tb.c
+INFO: [HLS 200-10] Running '/opt/Xilinx2018/Vivado/2018.3/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'dss545' on host 'hansolo.poly.edu' (Linux_x86_64 version 3.10.0-957.10.1.el7.x86_64) on Wed Oct 23 17:54:36 EDT 2019
+INFO: [HLS 200-10] On os "Red Hat Enterprise Linux Server release 7.6 (Maipo)"
+INFO: [HLS 200-10] In directory '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_dss545/1194491571867676287345
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) gf31.c_pre.c.tb.c
+INFO: [HLS 200-10] Running '/opt/Xilinx2018/Vivado/2018.3/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'dss545' on host 'hansolo.poly.edu' (Linux_x86_64 version 3.10.0-957.10.1.el7.x86_64) on Wed Oct 23 17:54:42 EDT 2019
+INFO: [HLS 200-10] On os "Red Hat Enterprise Linux Server release 7.6 (Maipo)"
+INFO: [HLS 200-10] In directory '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_dss545/1195671571867682383103
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) aes.c_pre.c.tb.c
+INFO: [HLS 200-10] Running '/opt/Xilinx2018/Vivado/2018.3/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'dss545' on host 'hansolo.poly.edu' (Linux_x86_64 version 3.10.0-957.10.1.el7.x86_64) on Wed Oct 23 17:54:48 EDT 2019
+INFO: [HLS 200-10] On os "Red Hat Enterprise Linux Server release 7.6 (Maipo)"
+INFO: [HLS 200-10] In directory '/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_dss545/1196971571867688477579
+INFO: [APCC 202-1] APCC is done.
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Known Answer Tests PASSED. 
+
+
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/opt/Xilinx2018/Vivado/2018.3/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx2018/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_crypto_sign_keypair_top glbl -prj crypto_sign_keypair.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile /opt/Xilinx2018/Vivado/2018.3/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s crypto_sign_keypair 
+Multi-threading is on. Using 126 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/crypto_sign_keypair.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_crypto_sign_keypair_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AESL_automem_pk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_pk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AESL_automem_sk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_sk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AESL_automem_DRBG_ctx_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_DRBG_ctx_V
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AESL_automem_DRBG_ctx_Key.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_DRBG_ctx_Key
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/KeyExpansion.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyExpansion
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AddRoundKey.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddRoundKey
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/SubBytes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SubBytes
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/Cipher.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cipher
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AES256_ECB_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES256_ECB_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AES256_ECB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES256_ECB
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AES256_CTR_DRBG_Upda.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES256_CTR_DRBG_Upda
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/randombytes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module randombytes
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/keccak_absorb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_absorb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/KeccakF1600_StatePer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeccakF1600_StatePer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/keccak_squeezeblocks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_squeezeblocks
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/keccak_absorb_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_absorb_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/gf31_nrand_schar.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gf31_nrand_schar
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/keccak_absorb_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_absorb_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/gf31_nrand.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gf31_nrand
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/generate_quadratic_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module generate_quadratic_t
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/MQ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MQ
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/gf31_npack.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gf31_npack
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/crypto_sign_keypair.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/KeyExpansion_sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyExpansion_sbox_rom
+INFO: [VRFC 10-311] analyzing module KeyExpansion_sbox
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/KeyExpansion_Rcon.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyExpansion_Rcon_rom
+INFO: [VRFC 10-311] analyzing module KeyExpansion_Rcon
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/SubBytes_sbox.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SubBytes_sbox_rom
+INFO: [VRFC 10-311] analyzing module SubBytes_sbox
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AES256_ECB_1_ctx_RoundKey.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES256_ECB_1_ctx_RoundKey_ram
+INFO: [VRFC 10-311] analyzing module AES256_ECB_1_ctx_RoundKey
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AES256_ECB_1_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES256_ECB_1_test_ram
+INFO: [VRFC 10-311] analyzing module AES256_ECB_1_test
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AES256_ECB_ctx_RoundKey.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES256_ECB_ctx_RoundKey_ram
+INFO: [VRFC 10-311] analyzing module AES256_ECB_ctx_RoundKey
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/AES256_CTR_DRBG_Upda_temp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES256_CTR_DRBG_Upda_temp_ram
+INFO: [VRFC 10-311] analyzing module AES256_CTR_DRBG_Upda_temp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/randombytes_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module randombytes_block_ram
+INFO: [VRFC 10-311] analyzing module randombytes_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/keccak_absorb_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module keccak_absorb_t_ram
+INFO: [VRFC 10-311] analyzing module keccak_absorb_t
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/KeccakF1600_StatePer_KeccakF_RoundConstan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeccakF1600_StatePer_KeccakF_RoundConstan_rom
+INFO: [VRFC 10-311] analyzing module KeccakF1600_StatePer_KeccakF_RoundConstan
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/gf31_nrand_schar_shakestate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gf31_nrand_schar_shakestate_ram
+INFO: [VRFC 10-311] analyzing module gf31_nrand_schar_shakestate
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/gf31_nrand_schar_output_assign.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gf31_nrand_schar_output_assign_ram
+INFO: [VRFC 10-311] analyzing module gf31_nrand_schar_output_assign
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/crypto_sign_keypair_mac_muladd_5ns_5s_10s_11_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_mac_muladd_5ns_5s_10s_11_1_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_mac_muladd_5ns_5s_10s_11_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/crypto_sign_keypair_mac_muladd_5s_6ns_11s_12_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_mac_muladd_5s_6ns_11s_12_1_1_DSP48_1
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_mac_muladd_5s_6ns_11s_12_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/MQ_p_xij.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MQ_p_xij_ram
+INFO: [VRFC 10-311] analyzing module MQ_p_xij
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/MQ_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MQ_r_ram
+INFO: [VRFC 10-311] analyzing module MQ_r
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/crypto_sign_keypair_F.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_F_ram
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_F
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/crypto_sign_keypair_skbuf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_skbuf_ram
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_skbuf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/crypto_sign_keypair_sk_gf31.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_sk_gf31_ram
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_sk_gf31
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/crypto_sign_keypair_pk_gf31.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_pk_gf31_ram
+INFO: [VRFC 10-311] analyzing module crypto_sign_keypair_pk_gf31
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.gf31_nrand_schar_shakestate_ram
+Compiling module xil_defaultlib.gf31_nrand_schar_shakestate(Data...
+Compiling module xil_defaultlib.gf31_nrand_schar_output_assign_r...
+Compiling module xil_defaultlib.gf31_nrand_schar_output_assign(D...
+Compiling module xil_defaultlib.crypto_sign_keypair_F_ram
+Compiling module xil_defaultlib.crypto_sign_keypair_F(DataWidth=...
+Compiling module xil_defaultlib.crypto_sign_keypair_skbuf_ram
+Compiling module xil_defaultlib.crypto_sign_keypair_skbuf(DataWi...
+Compiling module xil_defaultlib.crypto_sign_keypair_sk_gf31_ram
+Compiling module xil_defaultlib.crypto_sign_keypair_sk_gf31(Data...
+Compiling module xil_defaultlib.crypto_sign_keypair_pk_gf31_ram
+Compiling module xil_defaultlib.crypto_sign_keypair_pk_gf31(Data...
+Compiling module xil_defaultlib.KeccakF1600_StatePer_KeccakF_Rou...
+Compiling module xil_defaultlib.KeccakF1600_StatePer_KeccakF_Rou...
+Compiling module xil_defaultlib.KeccakF1600_StatePer
+Compiling module xil_defaultlib.keccak_squeezeblocks
+Compiling module xil_defaultlib.keccak_absorb_t_ram
+Compiling module xil_defaultlib.keccak_absorb_t(DataWidth=8,Addr...
+Compiling module xil_defaultlib.keccak_absorb_2
+Compiling module xil_defaultlib.gf31_nrand_schar
+Compiling module xil_defaultlib.keccak_absorb_1
+Compiling module xil_defaultlib.gf31_nrand
+Compiling module xil_defaultlib.randombytes_block_ram
+Compiling module xil_defaultlib.randombytes_block(DataWidth=8,Ad...
+Compiling module xil_defaultlib.AES256_CTR_DRBG_Upda_temp_ram
+Compiling module xil_defaultlib.AES256_CTR_DRBG_Upda_temp(DataWi...
+Compiling module xil_defaultlib.AES256_ECB_ctx_RoundKey_ram
+Compiling module xil_defaultlib.AES256_ECB_ctx_RoundKey(DataWidt...
+Compiling module xil_defaultlib.AES256_ECB_1_test_ram
+Compiling module xil_defaultlib.AES256_ECB_1_test(DataWidth=8,Ad...
+Compiling module xil_defaultlib.KeyExpansion_sbox_rom
+Compiling module xil_defaultlib.KeyExpansion_sbox(DataWidth=8,Ad...
+Compiling module xil_defaultlib.KeyExpansion_Rcon_rom
+Compiling module xil_defaultlib.KeyExpansion_Rcon(DataWidth=8,Ad...
+Compiling module xil_defaultlib.KeyExpansion
+Compiling module xil_defaultlib.AddRoundKey
+Compiling module xil_defaultlib.SubBytes_sbox_rom
+Compiling module xil_defaultlib.SubBytes_sbox(DataWidth=8,Addres...
+Compiling module xil_defaultlib.SubBytes
+Compiling module xil_defaultlib.Cipher
+Compiling module xil_defaultlib.AES256_ECB
+Compiling module xil_defaultlib.AES256_CTR_DRBG_Upda
+Compiling module xil_defaultlib.AES256_ECB_1_ctx_RoundKey_ram
+Compiling module xil_defaultlib.AES256_ECB_1_ctx_RoundKey(DataWi...
+Compiling module xil_defaultlib.AES256_ECB_1
+Compiling module xil_defaultlib.randombytes
+Compiling module xil_defaultlib.MQ_p_xij_ram
+Compiling module xil_defaultlib.MQ_p_xij(DataWidth=6,AddressRang...
+Compiling module xil_defaultlib.MQ_r_ram
+Compiling module xil_defaultlib.MQ_r(DataWidth=32,AddressRange=4...
+Compiling module xil_defaultlib.generate_quadratic_t
+Compiling module xil_defaultlib.crypto_sign_keypair_mac_muladd_5...
+Compiling module xil_defaultlib.crypto_sign_keypair_mac_muladd_5...
+Compiling module xil_defaultlib.crypto_sign_keypair_mac_muladd_5...
+Compiling module xil_defaultlib.crypto_sign_keypair_mac_muladd_5...
+Compiling module xil_defaultlib.MQ
+Compiling module xil_defaultlib.gf31_npack
+Compiling module xil_defaultlib.keccak_absorb
+Compiling module xil_defaultlib.crypto_sign_keypair
+Compiling module xil_defaultlib.AESL_automem_pk
+Compiling module xil_defaultlib.AESL_automem_sk
+Compiling module xil_defaultlib.AESL_automem_DRBG_ctx_V
+Compiling module xil_defaultlib.AESL_automem_DRBG_ctx_Key
+Compiling module xil_defaultlib.apatb_crypto_sign_keypair_top
+Compiling module work.glbl
+Built simulation snapshot crypto_sign_keypair
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source /home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/xsim.dir/crypto_sign_keypair/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Oct 23 17:55:19 2019...
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/crypto_sign_keypair/xsim_script.tcl
+# xsim {crypto_sign_keypair} -autoloadwcfg -tclbatch {crypto_sign_keypair.tcl}
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source crypto_sign_keypair.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [n/a] @ "125000"
+// RTL Simulation : 1 / 1 [n/a] @ "3654695000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 3654735 ns : File "/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/keypair/sim/verilog/crypto_sign_keypair.autotb.v" Line 573
+run: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:21 . Memory (MB): peak = 1375.590 ; gain = 0.000 ; free physical = 15379 ; free virtual = 593500
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Oct 23 17:55:52 2019...
+INFO: [COSIM 212-316] Starting C post checking ...
+Known Answer Tests PASSED. 
+
+
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
