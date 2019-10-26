@@ -1,0 +1,22 @@
+<project xmlns="com.autoesl.autopilot.project" top="crypto_sign_keypair" name="mqdss_48.prj">
+    <includePaths/>
+    <libraryPaths/>
+    <Simulation>
+        <SimFlow askAgain="false" name="csim" csimMode="2" lastCsimMode="2"/>
+    </Simulation>
+    <files xmlns="">
+        <file name="../../newtest_sign.c" sc="0" tb="1" cflags=" -Wno-unknown-pragmas" blackbox="false"/>
+        <file name="sign.c" sc="0" tb="false" cflags="" blackbox="false"/>
+        <file name="rng.c" sc="0" tb="false" cflags="" blackbox="false"/>
+        <file name="mq.c" sc="0" tb="false" cflags="" blackbox="false"/>
+        <file name="gf31.c" sc="0" tb="false" cflags="" blackbox="false"/>
+        <file name="fips202.c" sc="0" tb="false" cflags="" blackbox="false"/>
+        <file name="aes.c" sc="0" tb="false" cflags="" blackbox="false"/>
+    </files>
+    <solutions xmlns="">
+        <solution name="sign_open" status="inactive"/>
+        <solution name="sign" status="inactive"/>
+        <solution name="keypair" status="active"/>
+    </solutions>
+</project>
+

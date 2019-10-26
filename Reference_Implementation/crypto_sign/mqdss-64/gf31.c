@@ -117,13 +117,16 @@ void gf31_npack(unsigned char *out, const gf31 *in, const unsigned int n)
     unsigned int i = 0;
     unsigned int j;
     int d = 3;
+    int loop;
 
     for (j = 0; j < n; j++) {
         assert(in[j] < 31);
     }
 
     /* There will be ceil(5n / 8) output blocks */
-    memset(out, 0, ((5 * n + 7) & ~7) >> 3);
+    //memset(out, 0, ((5 * n + 7) & ~7) >> 3);
+    for(loop=0;loop<((5 * n + 7) & ~7) >> 3;loop++)
+	out[loop]=0;
 
     for (j = 0; j < n; j++) {
         if (d < 0) {
