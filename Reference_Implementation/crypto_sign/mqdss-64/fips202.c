@@ -26,7 +26,7 @@ static void store64(uint8_t *x, uint64_t u)
 {
   unsigned int i;
 
-  for(i=0; i<8; ++i) {
+  store64_label5:for(i=0; i<8; ++i) {
     x[i] = u;
     u >>= 8;
   }

@@ -1,6 +1,6 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 49
+set id 43
 set name crypto_sign_keypair_mac_muladd_5ns_5s_10s_11_1_1
 set corename simcore_mac
 set op mac
@@ -82,7 +82,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_dsp48, check your p
 }
 
 
-set id 50
+set id 47
 set name crypto_sign_keypair_mac_muladd_5s_6ns_11s_12_1_1
 set corename simcore_mac
 set op mac
@@ -254,7 +254,7 @@ set ID 54
 set hasByteEnable 0
 set MemName MQ_r
 set CoreName ap_simcore_mem
-set PortList { 2 3 }
+set PortList { 2 2 }
 set DataWd 32
 set AddrRange 48
 set AddrWd 6

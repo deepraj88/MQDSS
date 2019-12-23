@@ -1,5 +1,5 @@
 # ==============================================================
-# File generated on Thu Oct 24 12:27:37 EDT 2019
+# File generated on Mon Dec 23 10:02:57 EST 2019
 # Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
@@ -14,3 +14,22 @@ add_files fips202.c
 add_files aes.c
 set_part xc7a200tfbg676-2
 create_clock -name default -period 10
+set_directive_allocation store64 store64 -limit 1 -type function
+set_directive_inline store64 
+set_directive_allocation shake256 shake256 -limit 1 -type function
+set_directive_inline shake256 
+set_directive_allocation H H -limit 1 -type function
+set_directive_inline H 
+set_directive_allocation com_0 com_0 -limit 1 -type function
+set_directive_inline com_0 
+set_directive_allocation com_1 com_1 -limit 1 -type function
+set_directive_inline com_1 
+set_directive_allocation gf31_nrand gf31_nrand -limit 1 -type function
+set_directive_inline gf31_nrand 
+set_directive_allocation gf31_nrand_schar gf31_nrand_schar -limit 1 -type function
+set_directive_inline gf31_nrand_schar 
+set_directive_allocation G G -limit 1 -type function
+set_directive_inline G 
+set_directive_unroll MQ/MQ_label3 -factor 16
+set_directive_unroll MQ/MQ_label4 -factor 16
+set_directive_allocation G/G_label6 G -limit 1 -type function

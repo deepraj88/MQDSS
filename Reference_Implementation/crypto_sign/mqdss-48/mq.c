@@ -42,14 +42,14 @@ void MQ(gf31 *fx, const gf31 *x, const signed char *F)
     generate_quadratic_terms(_xij, x);
 
     for (i = 0; i < N; i += 2) {
-        for (j = 0; j < M; j++) {
+        MQ_label0:for (j = 0; j < M; j++) {
             r[j] += ((int)x[i])*((int)F[i*M + 2*j]) +
                     ((int)x[i+1])*((int)F[i*M + 2*j + 1]);
         }
     }
 
     for (i = 0; i < (N*(N+1)) >> 1; i += 2) {
-        for (j = 0; j < M; j++) {
+        MQ_label1:for (j = 0; j < M; j++) {
             r[j] += ((int)_xij[i])*((int)F[N*M + i*M + 2*j]) +
                     ((int)_xij[i+1])*((int)F[N*M + i*M + 2*j + 1]);
         }
@@ -73,7 +73,7 @@ void G(gf31 *fx, const gf31 *x, const gf31 *y, const signed char *F)
     generate_xiyj_p_xjyi_terms(_xij, x, y);
 
     for (i = 0; i < (N*(N+1)) >> 1; i += 2) {
-        for (j = 0; j < M; j++) {
+        G_label2:for (j = 0; j < M; j++) {
             r[j] += ((int)_xij[i])*((int)F[N*M + i*M + 2*j]) +
                     ((int)_xij[i+1])*((int)F[N*M + i*M + 2*j + 1]);
         }

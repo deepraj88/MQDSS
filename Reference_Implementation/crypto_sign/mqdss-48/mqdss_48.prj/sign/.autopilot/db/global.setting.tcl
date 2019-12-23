@@ -40,7 +40,7 @@ set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
 set TargetInfo xc7a200t:fbg676:-2
-set SourceFiles {sc {} c {../../sign.c ../../rng.c ../../mq.c ../../gf31.c ../../fips202.c ../../aes.c}}
+set SourceFiles {sc {} c {../../aes.c ../../fips202.c ../../gf31.c ../../mq.c ../../rng.c ../../sign.c}}
 set SourceFlags {sc {} c {{} {} {} {} {} {}}}
 set DirectiveFile /home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mqdss_48.prj/sign/sign.directive
 set TBFiles {verilog ../../newtest_sign.c bc ../../newtest_sign.c vhdl ../../newtest_sign.c sc ../../newtest_sign.c cas ../../newtest_sign.c c {}}
