@@ -32,18 +32,27 @@
         </directive>
         <directive functionName="MQ" label="MQ_label3" functionLabel="">
             <pragma name="UNROLL">
-                <option name="factor" value="2"/>
+                <option name="factor" value="128"/>
             </pragma>
+        </directive>
+        <directive functionName="MQ" label="MQ_label3" functionLabel="">
+            <pragma name="PIPELINE"/>
         </directive>
         <directive functionName="MQ" label="MQ_label4" functionLabel="">
             <pragma name="UNROLL">
-                <option name="factor" value="2"/>
+                <option name="factor" value="128"/>
             </pragma>
+        </directive>
+        <directive functionName="MQ" label="MQ_label4" functionLabel="">
+            <pragma name="PIPELINE"/>
         </directive>
         <directive functionName="G" label="G_label6" functionLabel="">
             <pragma name="UNROLL">
-                <option name="factor" value="2"/>
+                <option name="factor" value="128"/>
             </pragma>
+        </directive>
+        <directive functionName="G" label="G_label6" functionLabel="">
+            <pragma name="PIPELINE"/>
         </directive>
         <directive functionName="H" label="" functionLabel="">
             <pragma name="ALLOCATION">

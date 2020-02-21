@@ -82,13 +82,19 @@
         </directive>
         <directive functionName="MQ" label="MQ_label3" functionLabel="">
             <pragma name="UNROLL">
-                <option name="factor" value="16"/>
+                <option name="factor" value="128"/>
             </pragma>
+        </directive>
+        <directive functionName="MQ" label="MQ_label3" functionLabel="">
+            <pragma name="PIPELINE"/>
         </directive>
         <directive functionName="MQ" label="MQ_label4" functionLabel="">
             <pragma name="UNROLL">
-                <option name="factor" value="16"/>
+                <option name="factor" value="128"/>
             </pragma>
+        </directive>
+        <directive functionName="MQ" label="MQ_label4" functionLabel="">
+            <pragma name="PIPELINE"/>
         </directive>
         <directive functionName="G" label="G_label6" functionLabel="">
             <pragma name="ALLOCATION">
@@ -96,6 +102,9 @@
                 <option name="limit" value="1"/>
                 <option name="function" value="" positionalBoolean="type"/>
             </pragma>
+        </directive>
+        <directive functionName="G" label="G_label6" functionLabel="">
+            <pragma name="PIPELINE"/>
         </directive>
     </sourceFile>
 </AutoPilot:ProjectResources>

@@ -56,7 +56,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_m_offset \
     op interface \
-    ports { m_offset { I 7 vector } } \
+    ports { m_offset { I 6 vector } } \
 } "
 }
 

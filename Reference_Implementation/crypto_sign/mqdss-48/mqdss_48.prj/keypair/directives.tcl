@@ -11,6 +11,6 @@ set_directive_inline "keccak_squeezeblocks"
 set_directive_allocation -limit 1 -type function "shake256_absorb" shake256_absorb
 set_directive_inline "shake256_absorb"
 set_directive_pipeline "MQ/MQ_label0"
-set_directive_unroll -factor 1 "MQ/MQ_label0"
+set_directive_unroll -factor 128 "MQ/MQ_label0"
 set_directive_pipeline "MQ/MQ_label1"
-set_directive_unroll -factor 1 "MQ/MQ_label1"
+set_directive_unroll -factor 128 "MQ/MQ_label1"

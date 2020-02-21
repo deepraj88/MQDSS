@@ -1,4 +1,4 @@
-<project xmlns="com.autoesl.autopilot.project" name="mqdss_64.prj" top="crypto_sign_open">
+<project xmlns="com.autoesl.autopilot.project" name="mqdss_64.prj" top="crypto_sign">
     <includePaths/>
     <libraryPaths/>
     <Simulation>

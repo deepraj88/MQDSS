@@ -9,9 +9,12 @@ set_directive_allocation -limit 1 -type function "shake256" shake256
 set_directive_inline "shake256"
 set_directive_allocation -limit 1 -type function "G" G
 set_directive_inline "G"
-set_directive_unroll -factor 2 "MQ/MQ_label3"
-set_directive_unroll -factor 2 "MQ/MQ_label4"
-set_directive_unroll -factor 2 "G/G_label6"
+set_directive_unroll -factor 128 "MQ/MQ_label3"
+set_directive_pipeline "MQ/MQ_label3"
+set_directive_unroll -factor 128 "MQ/MQ_label4"
+set_directive_pipeline "MQ/MQ_label4"
+set_directive_unroll -factor 128 "G/G_label6"
+set_directive_pipeline "G/G_label6"
 set_directive_allocation -limit 1 -type function "H" H
 set_directive_inline "H"
 set_directive_allocation -limit 1 -type function "com_0" com_0

@@ -38,13 +38,19 @@
             <pragma name="INLINE"/>
         </directive>
         <directive functionName="MQ" label="MQ_label0" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="MQ" label="MQ_label0" functionLabel="">
             <pragma name="UNROLL">
-                <option name="factor" value="4"/>
+                <option name="factor" value="128"/>
             </pragma>
         </directive>
         <directive functionName="MQ" label="MQ_label1" functionLabel="">
+            <pragma name="PIPELINE"/>
+        </directive>
+        <directive functionName="MQ" label="MQ_label1" functionLabel="">
             <pragma name="UNROLL">
-                <option name="factor" value="4"/>
+                <option name="factor" value="128"/>
             </pragma>
         </directive>
     </sourceFile>

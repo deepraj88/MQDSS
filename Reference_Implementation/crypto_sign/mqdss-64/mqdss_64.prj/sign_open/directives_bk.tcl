@@ -19,6 +19,9 @@ set_directive_allocation -limit 1 -type function "gf31_nrand_schar" gf31_nrand_s
 set_directive_inline "gf31_nrand_schar"
 set_directive_allocation -limit 1 -type function "G" G
 set_directive_inline "G"
-set_directive_unroll -factor 16 "MQ/MQ_label3"
-set_directive_unroll -factor 16 "MQ/MQ_label4"
+set_directive_unroll -factor 128 "MQ/MQ_label3"
+set_directive_pipeline "MQ/MQ_label3"
+set_directive_unroll -factor 128 "MQ/MQ_label4"
+set_directive_pipeline "MQ/MQ_label4"
 set_directive_allocation -limit 1 -type function "G/G_label6" G
+set_directive_pipeline "G/G_label6"

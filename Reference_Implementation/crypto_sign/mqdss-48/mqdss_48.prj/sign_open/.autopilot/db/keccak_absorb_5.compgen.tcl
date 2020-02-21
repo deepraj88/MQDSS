@@ -1,11 +1,11 @@
 # This script segment is generated automatically by AutoPilot
 
 # Memory (RAM/ROM)  definition:
-set ID 9
+set ID 3
 set hasByteEnable 0
 set MemName keccak_absorb_5_t
 set CoreName ap_simcore_mem
-set PortList { 2 2 }
+set PortList { 2 3 }
 set DataWd 8
 set AddrRange 200
 set AddrWd 8
@@ -96,14 +96,14 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 10 \
+    id 4 \
     name s \
     reset_level 1 \
     sync_rst true \
     dir IO \
     corename s \
     op interface \
-    ports { s_address0 { O 5 vector } s_ce0 { O 1 bit } s_we0 { O 1 bit } s_d0 { O 64 vector } s_q0 { I 64 vector } } \
+    ports { s_address0 { O 5 vector } s_ce0 { O 1 bit } s_we0 { O 1 bit } s_d0 { O 64 vector } s_q0 { I 64 vector } s_address1 { O 5 vector } s_ce1 { O 1 bit } s_we1 { O 1 bit } s_d1 { O 64 vector } s_q1 { I 64 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 's'"
@@ -115,20 +115,35 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 11 \
+    id 5 \
     name m \
     reset_level 1 \
     sync_rst true \
     dir I \
     corename m \
     op interface \
-    ports { m_address0 { O 6 vector } m_ce0 { O 1 bit } m_q0 { I 8 vector } } \
+    ports { m_address0 { O 12 vector } m_ce0 { O 1 bit } m_q0 { I 8 vector } } \
 } "
 } else {
 puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'm'"
 }
 }
 
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 6 \
+    name mlen \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_mlen \
+    op interface \
+    ports { mlen { I 32 vector } } \
+} "
+}
 
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {

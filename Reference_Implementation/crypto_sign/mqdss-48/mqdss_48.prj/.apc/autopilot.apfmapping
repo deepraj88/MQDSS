@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="sign.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/sign.c"/>
-    <originFiles name="rng.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/rng.c"/>
-    <originFiles name="mq.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mq.c"/>
-    <originFiles name="gf31.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/gf31.c"/>
-    <originFiles name="fips202.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/fips202.c"/>
     <originFiles name="aes.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/aes.c"/>
+    <originFiles name="fips202.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/fips202.c"/>
+    <originFiles name="gf31.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/gf31.c"/>
+    <originFiles name="mq.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/mq.c"/>
+    <originFiles name="rng.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/rng.c"/>
+    <originFiles name="sign.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/sign.c"/>
   </source>
   <testbench>
     <originFiles name="newtest_sign.c" path="/home/dss545/vivado_hls/MQDSS/NIST-PQ-Submission-MQDSS-20190315/Reference_Implementation/crypto_sign/mqdss-48/newtest_sign.c"/>
